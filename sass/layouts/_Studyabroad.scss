@@ -1,0 +1,158 @@
+.study-abroad {
+    padding: $sectionPadding;
+
+    .abroad-wrapp {
+        position: relative;
+        text-align: center;
+        padding: 0 30px 20px 30px;
+        z-index: 0;
+        margin-top: 50px;
+        transition: $primarTransition;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: #f6f6f6;
+            left: 0;
+            transition: $primarTransition;
+            top: 20px;
+            border-radius: 4px;
+            z-index: -1;
+        }
+
+        a {
+            position: relative;
+
+            .single-destination-abroad {
+                height: 180px;
+                @include bgProperty(cover, center, no-repeat);
+            }
+
+            span {
+                display: block;
+                color: #000;
+                font-size: 20px;
+                font-weight: 700;
+                padding-top: 18px;
+            }
+        }
+
+        &:hover {
+            &::before {
+                background: #fff;
+            }
+        }
+    }
+}
+
+.destination-area {
+    padding: $sectionPadding;
+    background: $primaryBg;
+
+    .destination-thumbs {
+        height: 350px;
+        @include bgProperty(cover, center, no-repeat)
+    }
+
+    .destination-content {
+        padding: 0 30px;
+
+        ul {
+            padding: 15px 0 5px 0;
+
+            li {
+                margin-right: 10px;
+                font-size: 15px;
+                color: $primaryColor;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        p {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+}
+
+#bg-white {
+    background: #fff;
+}
+
+#dst-bg {
+    background: $primaryBg;
+
+    .destination-content {
+        padding: 0 30px;
+
+        ul {
+            list-style: decimal;
+
+            li {
+                margin-bottom: 5px;
+                font-weight: 500;
+                font-size: 15px;
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+.country-represent {
+    padding: $sectionPadding;
+    .section-heading{
+        margin-bottom: 40px;
+    }
+    .institute-wrapp {
+        position: relative;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        .institute-logo {
+            width: 80px;
+            height: 80px;
+            @include bgProperty(cover, center, no-repeat);
+            border-radius: 50%;
+            border: 1px solid $primaryColor;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .institute-name {
+            padding:0px 26px 20px 26px;
+            h4 {
+                font-size: 17px;
+                font-weight: 600;
+                padding-bottom: 6px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+
+.destination-form {
+    padding: $sectionPadding;
+
+    .form-abroad {
+        input {
+            padding: 15px 5px;
+            border-radius: 0;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            min-height: 150px;
+            resize: none;
+            margin-bottom: 20px;
+        }
+    }
+}

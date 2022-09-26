@@ -1,0 +1,64 @@
+.student-review{
+    .section-heading{
+        h2{
+            color: #fff;
+        }
+        span{
+            &::before,&::after{
+                background: #fff;
+            }
+        }
+    }
+    padding: $sectionPadding;
+    background: url('../images/destination/canada.jpg');
+    @include bgProperty(cover, center, no-repeat);
+    position: relative;
+    z-index: 0;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .student-review-wrapp{
+        margin-top: 40px;
+        .single-review-item{
+            width: 600px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            margin-top: 60px;
+            position: relative;
+            background: #fff;
+            border-radius: 5px;
+            .single-review-profile {
+                width: 100px;
+                height: 100px;
+                @include bgProperty(cover, center, no-repeat);
+                margin-right: 0px;
+                margin: 0 auto;
+                border-radius: 50%;
+                position: absolute;
+                top: -55px;
+                left: 0;
+                right: 0;
+                border: 4px solid #fff;
+            }
+            .review-content{
+                text-align: center;
+                 padding: 56px 40px 30px 30px;
+                h4{
+                    font-weight: 600;
+                    font-size: 22px;
+                    padding-bottom: 10px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

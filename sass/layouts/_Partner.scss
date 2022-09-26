@@ -1,0 +1,12 @@
+.partner-area{
+    padding: $sectionPadding;
+    background: $primaryColor;
+    .partner-wrapp{
+        .single-partner-item{
+            border-radius: 5px;
+            img{
+                border-radius: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.header-top {
+    background: $primaryColor;
+    padding: 10px 0;
+    .topbar-wrapp{
+        .advance-career-address{
+            ul{
+                li{
+                    padding-right: 30px;
+                    border-right: 1px solid #fff ;
+                    span{
+                        margin-right: 10px;
+                        color: #fff;
+                    }
+                    a{
+                        color: #fff;
+                    }
+                &:last-child{
+                    padding-left: 30px;
+                    border-right: 0;
+                    padding-right: 0;
+                }}
+            }
+        }
+        .check-application{
+            span{
+                margin-right: 5px;
+                color: #fff;
+            }
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
+header{
+    .header{
+        padding: 10px 0;
+        .header-wrapp{
+            .logo{
+                width: 150px;
+                a{
+                    img{
+                        
+                    }
+                }
+            }
+            .primary-menu{
+                nav{
+                    ul{
+                        li{
+                            margin-right: 20px;
+                            display: inline-block;
+                            position: relative;
+                            &:last-child{
+                                margin-right: 0;
+                            }
+                            a{
+                                display: inline-block;
+                                color: $primaryColor;
+                                font-size: $bodyFonts;
+                                font-weight: 600;
+                                text-transform: capitalize;
+                            }
+                            ul{
+                                position: absolute;
+                                top: 170%;
+                                width: 250px;
+                                padding: 10px;
+                                background: #fff;
+                                height: auto;
+                                z-index: 1020;
+                                transform: scaleY(0);
+                                transform-origin: top;
+                                transition: $primarTransition;
+                                opacity: 0;
+                                li{
+                                    display: block !important;
+                                    padding-bottom: 10px;
+                                    border-bottom: 1px solid $primaryColor;
+                                    margin-bottom: 10px;
+                                    &:first-child{
+                                        padding-top: 25px;
+                                    }
+                                    &:last-child{
+                                        padding-bottom: 0px;
+                                        margin-bottom: 0;
+                                        border-bottom: 0;
+                                    }
+                                    a{
+                                        color: $primaryColor;
+                                    }
+                                }
+                            }
+                            &:hover{
+                                ul{
+                                    transform: scaleY(1);
+                                    opacity: 1;
+                                    top: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.modal-header{
+    background: #d6d6d624;
+}
+.custom-btn{
+    color: #fff !important;
+}
+h5#apr {
+    font-size: 16px;
+}
+.apr-title {
+    font-size: 14px;
+    padding: 9px 19px;
+}

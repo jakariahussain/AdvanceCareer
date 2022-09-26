@@ -1,0 +1,180 @@
+.about-area {
+    padding: $sectionPadding;
+    padding-bottom: 0;
+    padding-top: 120px;
+
+    .about-wrap {
+        height: 100%;
+    }
+
+    .about-thumb {
+        width: 500px;
+        height: 350px;
+        margin: 0 auto;
+        @include bgProperty(cover,center,no-repeat);
+        border-bottom: 3px solid $primaryColor;
+        position: relative;
+        z-index: 0;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+        a{
+            color: #fff;
+            font-size: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .about-content {
+        margin-top: 25px;
+
+        p {
+            padding-top: 15px;
+            font-size: 15px;
+        }
+    }
+}
+
+.pt-inherit {
+    padding: 60px 0px !important;
+}
+
+.faq-area {
+    padding: $sectionPadding;
+    background: #F7F7F7;
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    div#accordionExample {
+        padding: 0 30px;
+    }
+
+    .accordion-body p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+.team-area {
+    padding: $sectionPadding;
+    padding-bottom: 0;
+
+    .section-heading {
+        margin-bottom: 20px;
+    }
+
+    .team-wrapp {
+        border-radius: 0 0 5px 5px;
+        margin-top: 20px;
+        .team-profile {
+            height: 350px;
+            @include bgProperty(cover, center, no-repeat);
+        }
+
+        .team-profile-name {
+            position: relative;
+
+            h4 {
+                padding: 40px 0 10px 0;
+                font-size: 20px;
+                font-weight: 600;
+                text-transform: capitalize;
+                color: $primaryColor;
+            }
+
+            p {
+                padding-bottom: 20px;
+                font-size: 15px;
+                color: $primaryColor;
+            }
+
+            ul {
+                padding: 10px 10px;
+                position: absolute;
+                top: -34px;
+                left: 0;
+                right: 0;
+                background: #fff;
+                width: 85%;
+                margin: 0 auto;
+                border-radius: 10px;
+
+                li {
+                    margin-right: 10px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50px;
+                        background: $primaryColor;
+                        transition: $primarTransition;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+.our-mission{
+    padding: $sectionPadding;
+    .section-heading{
+        margin-bottom: 40px;
+    }
+    .mission-thumbs{
+        margin-bottom: 40px;
+        height: 350px;
+        @include bgProperty(cover, center, no-repeat);
+        border-radius:5px
+    }
+    .mission-content{
+        height: 100%;
+        flex-direction: column;
+        padding: 0 20px;
+        p{
+            margin-top: 15px;
+            font-size: 15px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+#vission{
+    background:$primaryBg;
+    .mission-content{
+        ul{
+            padding: 15px 0 15px 19px;
+            list-style: square;
+            li{
+                margin-bottom: 10px;
+                font-size: 15px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

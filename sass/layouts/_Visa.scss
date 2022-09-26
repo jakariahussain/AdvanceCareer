@@ -1,0 +1,27 @@
+.visa-services-area{
+    padding: $sectionPadding;
+    background: $primaryBg;
+    .section-heading{
+        margin-bottom: 20px;
+    }    
+    .visa-wrapp{
+        margin-top: 20px;
+        .visa-thumbs-profile{
+            height: 150px;
+            @include bgProperty(cover,center,no-repeat)
+        }
+        .visa-content{
+            padding: 15px 10px 30px 10px;
+            h4{
+                font-size: 22px;
+                font-weight: 600;
+                text-transform: capitalize;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

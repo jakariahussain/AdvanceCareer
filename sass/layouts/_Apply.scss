@@ -1,0 +1,80 @@
+.navs-area {
+    padding: $sectionPadding;
+    .section-heading {
+        margin-bottom: 40px;
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .navs-wrapp {
+        .nav-tabs {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            border-bottom: none;
+        }
+
+        .apply-form-area {
+            margin-top: 40px;
+
+            h4 {
+                font-size: 25px;
+                font-weight: 600;
+                text-transform: capitalize;
+                padding-bottom: 20px;
+                color: $primaryColor;
+            }
+
+            form {
+                label {
+                    margin-bottom: .5rem;
+                    font-weight: 600;
+                    font-size: 15px;
+                    text-transform: capitalize;
+                }
+                input{
+                    margin-bottom: 10px;
+                    padding: 10px 5px 10px 15px;
+                }
+                .form-control{
+                    border-radius: 0 !important;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+                .check-field{
+                    input{
+                        padding-left: 10px;
+                    }
+                    span{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #695184;
+    border: none;
+}
+.nav-tabs .nav-link{
+    border: 0 i !important;
+}
+#app-adr{
+    .section-heading{
+        margin-bottom: 40px;
+    }
+}
+.nice-select {
+    height: auto;
+    width: 100%;
+}
+ul.list {
+    width: 100%;
+}
+.nav{
+    justify-content:center;
+}

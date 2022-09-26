@@ -1,0 +1,445 @@
+@media (max-width:768px){
+    .career-area .career-position tr th{
+        display: block;
+    }
+    .career-responsibility {
+        display: block !important;
+    }
+    .apply_form {
+        padding: 40px 10px;
+    }
+    .career-area .career-responsibility .single-career-rsp p {
+        margin-bottom: 20px;
+    }
+    .about-area .about-thumb {
+        margin-bottom: 30px;
+    }
+    .find-wrapp {
+        margin-bottom: 30px;
+    }
+    footer .footer-area .socials-links ul {
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+    .term-area {
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:320px)and(max-width:1050px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4.8% !important;
+    }
+    .topbar-wrapp {
+        display: block !important;
+    }
+    .student-login .loging-form {
+        width: 100% !important;
+    }
+    footer .footer-area .footer-wrapp .mailSubscribe .mail-submit{
+        position: inherit;
+    }
+    .destination-area .destination-content{
+        padding: 0 10px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand{
+        background: transparent;
+        border: 0 !important;
+    }
+    .our-mission .mission-content{
+        padding: 0 10px;
+    }
+    
+    .faq-area div#accordionExample {
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .student-login .loging-form .login-wrapp {
+        padding: 40px 30px;
+    }
+    .student-login .loging-form .login-wrapp .form-login .form-check label {
+        font-size: 13px;
+    }
+    .student-login .loging-form .login-wrapp .form-login .form-check a {
+        padding-left: 0;
+        display: block;
+        font-size: 14px;
+    }
+    .student-login .loging-form .login-wrapp .form-login button{
+        width: 62%;
+    }
+    .header-top .topbar-wrapp .advance-career-address ul li {
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+    .blog-content-details {
+        padding: 0 10px !important;
+    }
+    .blog-details .blog-wrapp .blog-content-details h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .navs-area .navs-wrapp .nav-tabs{
+        width: 100%;
+    }
+    .blog-details .blog-wrapp .blog-content-details ul li {
+        margin-right: 20px;
+    }
+    .sidebar-blog a .sidebar-content ul li {
+        margin-right: 18px;
+    }
+    .blog-wrapp {
+        margin-bottom: 30px;
+    }
+    .sidebar-content {
+        padding:12px !important;
+    }
+    .sidebar-blog a .sidebar-content h4 {
+        font-size: 16px;
+    }
+    .advance-career-address ul {
+        display: block !important;
+    }
+
+    .header-top .topbar-wrapp .advance-career-address ul li:last-child {
+        padding-left: 0;
+    }
+
+    .section-heading {
+        width: 100% !important;
+    }
+
+    .section-heading span {
+        width: 100%;
+    }
+    .breadcrumbs h1 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .services-details-area .services-details-wrapp {
+        padding: 0 0px;
+    }
+    .header-wrapp {
+        display: block !important;
+    }
+    .services-details-area .services-details-wrapp .single-services-details h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .destination-area .destination-thumbs{
+        margin-bottom: 30px;
+    }
+    .destination-area .destination-content ul{
+        display: block !important;
+    }
+    #dst-bg .destination-content {
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    .single-services-details {
+        margin-bottom: 20px;
+    }
+    .gallery-wrapp {
+        display: block !important;
+    }
+    .gallery-area .gallery-wrapp .single-gallery-items {
+        margin-top: 20px;
+    }
+    .helping-area .helping-content {
+        padding: 0 0px;
+        margin-top: 20px;
+    }
+    .helping-area .helping-content h4 {
+        font-size: 20px;
+    }
+    .single-banner {
+        width: 100% !important;
+    }
+
+    .copyrights-wrapp {
+        flex-direction: column-reverse;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        top: -60px;
+    }
+
+    .mean-bar {
+        height: 0 !important;
+        padding: 0 !important;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        top: -60px;
+        color: #695184;
+    }
+
+    .university-area {
+        position: inherit;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .university-wrapp {
+        align-items: flex-start !important;
+        justify-content: start !important;
+        padding: 12px 20px;
+    }
+
+    .section-heading span::before {
+        left: 10%;
+    }
+
+    .section-heading span::after {
+        right: 10%;
+    }
+
+    .banner-area .banner-wrapp .banner-content {
+        height: 450px !important;
+    }
+
+    .banner-area .banner-wrapp .banner-content .single-banner h2 {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .banner-area .banner-wrapp .banner-content .single-banner a {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .student-review .student-review-wrapp .single-review-item {
+        width: 100%;
+    }
+
+    footer .footer-area .footer-services {
+        padding-left: 0;
+    }
+
+    .socials-links {
+        margin-bottom: 12px;
+    }
+
+    .about-area .about-thumb {
+        width: 100%;
+        height: 250px;
+    }
+
+    .advance-career-address {
+        display: none;
+    }
+
+    .about-area {
+        padding-top: 60px;
+    }
+
+    footer .footer-area .footer-wrapp .mailSubscribe .mail-submit button {
+        position: inherit;
+        margin: 10px 0;
+    }
+
+    footer .footer-area .footer-wrapp .mailSubscribe .mail {
+        width: 100%;
+    }
+
+    .footer-about {
+        text-align: left !important;
+    }
+
+    footer .footer-area .footer-wrapp {
+        padding: 0;
+        text-align: left !important;
+    }
+    .contact-wrapp {
+        display: block !important;
+        margin-bottom: 30px;
+    }
+    .contact-us .contact-wrapp .office-location {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .contact-us .contact-wrapp .contact-address {
+        padding-bottom: 20px;
+    }
+    .contact-us .contact-wrapp .contact-address ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:400px) and (max-width:576px) {
+    .section-heading span {
+        width: 77%;
+    }
+    .about-wrap .section-heading {
+        margin-top: 40px;
+    }
+    .team-area .team-wrapp .team-profile{
+        height: 450px;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .university-wrapp {
+        padding: 12px 0px;
+    }
+    .footer-about{
+        width: 100% !important;
+    }
+    .university-area .university-wrapp .single-university-content h3 {
+        font-size: 14px;
+    }
+
+    .university-area .university-wrapp .single-university-thumb {
+        margin-right: 11px;
+    }
+
+    .university-area .university-wrapp .single-university-content p {
+        font-size: 13px;
+    }
+
+    .about-area {
+        padding-top: 60px;
+    }
+
+    .section-heading span {
+        width: 282px;
+    }
+
+    .services-area .services-wrapp {
+        padding: 16px;
+    }
+
+    .services-area .services-wrapp .single-service-content h4 {
+        font-size: 15px;
+    }
+
+    .footer-about {
+        width: 500px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .gallery-wrapp {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .gallery-area .gallery-wrapp .single-gallery-items {
+        width: 48%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .find-area .find-wrapp button {
+        padding: 10px 16px !important;
+    }
+    .career-area .career-position tr th {
+        padding: 22px 25px !important;
+    }
+    .career-responsibility {
+        display: block !important;
+    }
+    .footer-about{
+        width: 100%;
+    }
+    .section-heading{
+        width: 330px !important;
+    }
+    .section-heading h2{
+        font-size: 23px;
+    }
+    .career-area .career-responsibility .single-career-rsp p {
+        margin-bottom: 20px;
+    }
+    .copyrights-wrapp {
+        flex-direction: inherit;
+    }
+    .copyrights{
+        padding-right: 20px;
+        p{
+            font-size: 15px;
+        }
+    }
+    .team-area .team-wrapp .team-profile-name ul li {
+        margin-right: 5px;
+    }
+    .gallery-wrapp {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .gallery-area .gallery-wrapp .single-gallery-items {
+        width: 31%;
+    }
+}
+
+@media (min-width:991px) and (max-width:1200px){
+    footer .footer-area .socials-links ul {
+        padding-left: 0;
+    }
+    .copyrights-wrapp{
+        flex-direction: inherit;
+    }
+    header .header .header-wrapp .primary-menu nav ul li a {
+        font-size: 14px;
+    }
+    header .header .header-wrapp .primary-menu nav ul li{
+        margin-right: 5px;
+    }
+    header .header .header-wrapp .logo {
+        width: 130px;
+    }
+    footer .footer-area .footer-wrapp {
+        padding: 0 9px;
+    }
+    footer .footer-area .footer-wrapp .mailSubscribe .mail-submit button {
+        padding: 9.5px 30px !important;
+    }
+    footer .footer-area .footer-services h3{
+        font-size: 15px;
+    }
+    .section-heading span{
+        width: 370px;
+    }
+    .section-heading span::before{
+        left: 18%;
+    }
+    .section-heading span::after{
+        right: 18%;
+    }
+    .breadcrumbs h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .services-details-area .services-details-wrapp .single-services-details h4 {
+        font-size: 23px;
+    }
+    .helping-area .helping-content h4 {
+        font-size: 23px;
+    }
+    .gallery-area .gallery-wrapp .single-gallery-items {
+        margin-top: 20px;
+    }
+    .navs-area .navs-wrapp .nav-tabs{
+        width: 70%;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1600px){
+    header .header .header-wrapp .primary-menu nav ul li {
+        margin-right: 16px;
+    }
+    header .header .header-wrapp .primary-menu nav ul li a{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1920px) and (max-width:2400px){
+    footer .footer-area .footer-wrapp {
+        padding: 0 120px;
+    }
+}

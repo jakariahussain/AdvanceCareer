@@ -1,0 +1,23 @@
+.university-area{
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    z-index: 1;
+    .university-wrapp{
+        .single-university-thumb{
+            margin-right: 15px;
+        }
+        .single-university-content{
+            h3{
+                font-size: 18px;
+                font-weight: 600;
+                color: $primaryColor;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 500;
+                padding-top: 5px;
+            }
+        }
+    }
+}

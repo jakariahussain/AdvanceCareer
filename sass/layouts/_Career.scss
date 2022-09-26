@@ -1,0 +1,108 @@
+.career-area {
+    padding: $sectionPadding;
+    .career-content {
+        padding: 0 30px 0 0;
+
+        h4 {
+            font-size: 26px;
+            font-weight: 600;
+        }
+        h5{
+            margin-top: 10px;
+            font-size: 16px;
+            span{
+                color: $primaryColor;
+                font-weight: 700;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            padding-top: 15px;
+        }
+    }
+    .career-position {
+        margin-top: 40px;
+        tr {
+            background: $primaryBg;
+            border-bottom: 10px solid #fff;
+
+            th {
+                padding: 22px 30px !important;
+                h5{
+                    color: #252525;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                small{
+                    color: $primaryColor;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+                p{
+                    padding-left: 17px;
+                    font-size: 14px;
+                    color: #252525;
+                    padding-top: 5px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .career-responsibility{
+        .single-career-rsp{
+            h4{
+                color: #252525;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            ul{
+                li{
+                    font-size: 15px;
+                    margin-top: 10px;
+                }
+            }
+            h6{
+                margin-top: 30px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.apply_form{
+    background: $primaryBg;
+    padding: 40px;
+    input{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    h4{
+        font-size: 20px;
+        color: $primaryColor;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+}
+
+.file-upload-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.file-upload-input.w-50 {
+    width: 48.6% !important;
+}
+.file-upload-wrapper button {
+    padding: 10px !important;
+    height: 45px;
+    margin-top: 22px;
+    width: 48% !important;
+}
